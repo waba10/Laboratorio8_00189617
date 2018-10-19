@@ -63,6 +63,7 @@ const crearElemento = (bitacora, tbody) => {
         console.log(content);
         td.appendChild(content);
         tr.appendChild(td);
+        tr.setAttribute('class', 'click');
     });
     tbody.appendChild(tr);
     console.log('tbody');
